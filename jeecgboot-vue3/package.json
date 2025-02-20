@@ -75,7 +75,7 @@
     "vuedraggable": "^4.1.0",
     "vxe-table": "4.6.17",
     "vxe-table-plugin-antd": "4.0.7",
-    "xe-utils": "3.5.26",
+    "xe-utils": "3.7.2",
     "xss": "^1.0.14"
   },
   "devDependencies": {
