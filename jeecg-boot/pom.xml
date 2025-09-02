@@ -55,7 +55,7 @@
 		<dm8.version>8.1.1.49</dm8.version>
 		
 		<!-- 持久层 -->
-		<mybatis-plus.version>3.5.3.2</mybatis-plus.version>
+		<mybatis-plus.version>3.5.8</mybatis-plus.version>
 		<dynamic-datasource-spring-boot-starter.version>4.1.3</dynamic-datasource-spring-boot-starter.version>
 		<druid.version>1.2.22</druid.version>
 
@@ -520,13 +520,13 @@
                 <!--Nacos服务地址-->
                 <config.server-addr>jeecg-boot-nacos:8848</config.server-addr>
 				<!--Nacos配置中心命名空间,用于支持多环境.这里必须使用ID，不能使用名称,默认为空-->
-				<config.namespace></config.namespace>
+				<config.namespace/>
 				<!--Nacos配置分组名称-->
 				<config.group>DEFAULT_GROUP</config.group>
 				<!--Nacos用户名-->
-				<config.username></config.username>
+				<config.username/>
 				<!--Nacos密码-->
-				<config.password></config.password>
+				<config.password/>
             </properties>
         </profile>
 		<!-- 测试Nacos开启鉴权、设置分组和命名空间
@@ -550,13 +550,13 @@
                 <!--Nacos服务地址-->
                 <config.server-addr>jeecg-boot-nacos:8848</config.server-addr>
 				<!--Nacos配置中心命名空间,用于支持多环境.这里必须使用ID，不能使用名称,默认为空-->
-				<config.namespace></config.namespace>
+				<config.namespace/>
 				<!--Nacos配置分组名称-->
 				<config.group>DEFAULT_GROUP</config.group>
 				<!--Nacos用户名-->
-				<config.username></config.username>
+				<config.username/>
 				<!--Nacos密码-->
-				<config.password></config.password>
+				<config.password/>
             </properties>
         </profile>
         <!-- 生产 -->
@@ -568,13 +568,13 @@
                 <!--Nacos服务地址-->
                 <config.server-addr>jeecg-boot-nacos:8848</config.server-addr>
 				<!--Nacos配置中心命名空间,用于支持多环境.这里必须使用ID，不能使用名称,默认为空-->
-				<config.namespace></config.namespace>
+				<config.namespace/>
 				<!--Nacos配置分组名称-->
 				<config.group>DEFAULT_GROUP</config.group>
 				<!--Nacos用户名-->
-				<config.username></config.username>
+				<config.username/>
 				<!--Nacos密码-->
-				<config.password></config.password>
+				<config.password/>
             </properties>
         </profile>
 		<!-- SpringCloud运行环境 -->
