@@ -74,7 +74,7 @@ specifiers:
   jest: ^29.7.0
   less: ^4.2.0
   lint-staged: 15.2.2
-  lodash-es: ^4.17.21
+  lodash-es: ^4.17.23
   lodash.get: ^4.4.2
   markdown-it: ^14.0.0
   markdown-it-link-attributes: ^4.0.1
@@ -164,7 +164,7 @@ dependencies:
   event-source-polyfill: registry.npmmirror.com/event-source-polyfill/1.0.31
   highlight.js: registry.npmmirror.com/highlight.js/11.9.0
   intro.js: 7.2.0
-  lodash-es: 4.17.21
+  lodash-es: 4.17.23
   lodash.get: 4.4.2
   markdown-it: registry.npmmirror.com/markdown-it/14.0.0
   markdown-it-link-attributes: registry.npmmirror.com/markdown-it-link-attributes/4.0.1
@@ -2501,7 +2501,7 @@ packages:
   /axios/0.26.1_debug@4.3.4:
     resolution: {integrity: sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==}
     dependencies:
-      follow-redirects: 1.15.6
+      follow-redirects: 1.15.6_debug@4.3.4
     transitivePeerDependencies:
       - debug
     dev: true
@@ -4357,6 +4357,7 @@ packages:
     peerDependenciesMeta:
       debug:
         optional: true
+    dev: false
 
   /follow-redirects/1.15.6_debug@4.3.4:
     resolution: {integrity: sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==}
@@ -5517,8 +5518,8 @@ packages:
       p-locate: 6.0.0
     dev: true
 
-  /lodash-es/4.17.21:
-    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
+  /lodash-es/4.17.23:
+    resolution: {integrity: sha512-kVI48u3PZr38HdYz98UmfPnXl2DXrpdctLrFLCd3kOx1xUkOmpFPx7gCWWM5MPkL/fD8zb+Ph0QzjGFs4+hHWg==}
     dev: false
 
   /lodash.camelcase/4.3.0:
@@ -10320,7 +10321,7 @@ packages:
       dom-align: registry.npmmirror.com/dom-align/1.12.4
       dom-scroll-into-view: registry.npmmirror.com/dom-scroll-into-view/2.0.1
       lodash: registry.npmmirror.com/lodash/4.17.21
-      lodash-es: registry.npmmirror.com/lodash-es/4.17.21
+      lodash-es: 4.17.23
       resize-observer-polyfill: registry.npmmirror.com/resize-observer-polyfill/1.5.1
       scroll-into-view-if-needed: registry.npmmirror.com/scroll-into-view-if-needed/2.2.31
       shallow-equal: registry.npmmirror.com/shallow-equal/1.2.1
@@ -12412,12 +12413,6 @@ packages:
     dependencies:
       p-locate: registry.npmmirror.com/p-locate/5.0.0
     dev: true
-
-  registry.npmmirror.com/lodash-es/4.17.21:
-    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==, registry: https://packages.aliyun.com/60e053ce4690c27532d3dfd3/npm/npm-registry/, tarball: https://registry.npmmirror.com/lodash-es/-/lodash-es-4.17.21.tgz}
-    name: lodash-es
-    version: 4.17.21
-    dev: false
 
   registry.npmmirror.com/lodash.merge/4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==, registry: https://packages.aliyun.com/60e053ce4690c27532d3dfd3/npm/npm-registry/, tarball: https://registry.npmmirror.com/lodash.merge/-/lodash.merge-4.6.2.tgz}
